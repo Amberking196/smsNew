@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<alipay>
+	<is_success>T</is_success>
+	<request>
+		<param name="partner">2088821945832190</param>
+		<param name="agreement_info">{"agreement_no":"20185318433703286662"}</param>
+		<param name="_input_charset">utf-8</param>
+		<param name="service">alipay.acquire.createandpay</param>
+		<param name="subject">怡宝饮用纯净水4.5L</param>
+		<param name="total_fee">0.010000</param>
+		<param name="sign">c89761a7068be84f87a9e7bf56ed995a</param>
+		<param name="product_code">GENERAL_WITHHOLDING</param>
+		<param name="notify_url">http://yms.youshuidaojia.com/aliInfo/wapNotify
+		</param>
+		<param name="sign_type">MD5</param>
+	</request>
+	<response>
+		<alipay>
+			<detail_error_code>INVALID_PARAMETER</detail_error_code>
+			<detail_error_des>参数无效：预下单token不能为空</detail_error_des>
+			<display_message>系统异常</display_message>
+			<result_code>ORDER_FAIL</result_code>
+		</alipay>
+	</response>
+	<sign>4fe0e9928112c993669ec3e92429c62f</sign>
+	<sign_type>MD5</sign_type>
+</alipay>
+
+
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<alipay>
+	<is_success>T</is_success>
+	<request>
+		<param name="partner">2088821945832190</param>
+		<param name="agreement_info">{"agreement_no":"20185318433703286662"}</param>
+		<param name="_input_charset">utf-8</param>
+		<param name="service">alipay.acquire.createandpay</param>
+		<param name="subject">怡宝饮用纯净水4.5L</param>
+		<param name="total_fee">0.010000</param>
+		<param name="sign">c89761a7068be84f87a9e7bf56ed995a</param>
+		<param name="product_code">GENERAL_WITHHOLDING</param>
+		<param name="notify_url">http://yms.youshuidaojia.com/aliInfo/wapNotify
+		</param>
+		<param name="sign_type">MD5</param>
+	</request>
+	<response>
+		<alipay>
+			<detail_error_code>INVALID_PARAMETER</detail_error_code>
+			<detail_error_des>参数无效：预下单token不能为空</detail_error_des>
+			<display_message>系统异常</display_message>
+			<result_code>ORDER_FAIL</result_code>
+		</alipay>
+	</response>
+	<sign>4fe0e9928112c993669ec3e92429c62f</sign>
+	<sign_type>MD5</sign_type>
+</alipay>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<alipay>
+	<is_success>T</is_success>
+	<request>
+		<param name="out_trade_no">1198800001120180530115452</param>
+		<param name="partner">2088821945832190</param>
+		<param name="agreement_info">{"agreement_no":"20185312432850616992"}</param>
+		<param name="_input_charset">utf-8</param>
+		<param name="service">alipay.acquire.createandpay</param>
+		<param name="subject">农夫山泉饮用天然水5L</param>
+		<param name="total_fee">24.599999999999998</param>
+		<param name="sign">d0897d86c04407ed0265ac199bc57a26</param>
+		<param name="product_code">GENERAL_WITHHOLDING</param>
+		<param name="notify_url">http://yms.youshuidaojia.com/aliInfo/notify</param>
+		<param name="sign_type">MD5</param>
+	</request>
+	<response>
+		<alipay>
+			<detail_error_code>INVALID_PARAMETER</detail_error_code>
+			<detail_error_des>参数无效：非法的订单总金额格式</detail_error_des>
+			<display_message>系统异常</display_message>
+			<out_trade_no>1198800001120180530115452</out_trade_no>
+			<result_code>ORDER_FAIL</result_code>
+		</alipay>
+	</response>
+	<sign>c987c7e24d1a53a1b44a52e7ac62abfe</sign>
+	<sign_type>MD5</sign_type>
+</alipay>
